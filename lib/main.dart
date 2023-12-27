@@ -13,15 +13,9 @@ void main() {
             ),
           ),
         ),
-        body: AnimatedOpacity(
-          opacity: 1.0,
-          duration: const Duration(milliseconds: 500),
-          child: Center(
-            child: Image(
-              image: NetworkImage(
-                'https://img.freepik.com/premium-vector/diamond-simple-icon-vector-illustration-eps10_118124-11146.jpg?w=1800',
-              ),
-            ),
+        body: Center(
+          child: Image(
+            image: AssetImage("images/diamond.png"),
           ),
         ),
       ),
